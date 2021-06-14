@@ -2,12 +2,21 @@
     "name": "docusaurus-node-polyfills",
     "author": "Jaya Krishna Namburu <namburu1995@gmail.com>",
     "main": "index.js",
+    "license": "MIT",
     "exports": {
         ".": "./index.js"  
     },
-    "version": "0.0.0",
-    "description": "A tiny wrapper around webpack-node-polyfills to support in docusaurus",
+    "version": "1.0.0",
+    "description": "A tiny wrapper around node-polyfill-webpack-plugin to support in docusaurus",
     "dependencies": {
+        "process": "^0.11.10",
+        "os-browserify": "^0.3.0",
         "node-polyfill-webpack-plugin": "^1.1.2"
+    },
+    "devDependencies": {
+        "webpack": "^5.36.2"
+    },
+    "peerDependencies": {
+        "webpack": ">=5"
     }
 }

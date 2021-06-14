@@ -1,5 +1,5 @@
 
-A tiny wrapper around node-polyfill-webpack-plugin to support `node-builtins` in docusaurus.
+A tiny wrapper around node-polyfill-webpack-plugin to support `node-builtins` in docusaurus. Huge thanks for the webpack [plugin](https://github.com/Richienb/node-polyfill-webpack-plugin), which makes it easy here.
 
 Install it from npm using
 ```
